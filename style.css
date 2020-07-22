@@ -1,0 +1,44 @@
+:root {
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    
+    background: linear-gradient(90deg, #1a16ec, #848574);
+  }
+  h1 {
+    text-align: center;
+    text-shadow: 2px 2px 10px yellow;
+  }
+
+  .image {
+      box-shadow: 10px 5px 40px yellow ;
+      border-radius: 50px;
+  }
+
+  #previous {
+    margin: 10px;
+    padding: 8px;
+    background-color: #848574;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-size: 14px;
+  }
+
+  #previous:hover {
+    background-color: yellow;
+    border-radius: 20px;
+  }
+
+  #next1 {
+    margin: 10px;
+    padding: 8px;
+    background-color: #848574;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-size: 14px;
+  }
+  #next1:hover {
+    background-color: yellow;
+    border-radius: 20px;
+  }
