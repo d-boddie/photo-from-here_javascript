@@ -27,7 +27,7 @@ function constructImageURL (photoObj) {
 function retrievePictures(coords) {
     console.log("Lat: " + coords.latitude)
     console.log("Lon: " + coords.longitude)
-    const url = "https://shrouded-mountain-15003.herokuapp.com/https://flickr.com/services/rest/?api_key=b277e94d22f2f75f69d735a3262ea30b&format=json&nojsoncallback=1&method=flickr.photos.search&safe_search=1&per_page=1&text=cats&lat=" + coords.latitude + "&lon=" + coords.longitude + "&page=" + pageIndex
+    const url = "https://shrouded-mountain-15003.herokuapp.com/https://flickr.com/services/rest/?api_key=b277e94d22f2f75f69d735a3262ea30b&format=json&nojsoncallback=1&method=flickr.photos.search&safe_search=1&per_page=1&text=cats" + "&lat=" + coords.latitude + "&lon=" + coords.longitude + "&page=" + pageIndex
 
     // fetch(url)  //sends a request to a web service API for data
     //     .then(function (response) {  //process the data
@@ -45,10 +45,7 @@ function retrievePictures(coords) {
     })
 }
 
-// function success() {
 
-//     console.log("hello")
-// }
 function useRealLocation(pos) {
     retrievePictures(pos.coords)
     let nextButton = document.querySelector("#next1")
@@ -71,7 +68,6 @@ function useFallbackLocation() {
     // nextButton.addEventListener("click", function () {
     //     retrievePictures(fallbackLocation, pageIndex)
     //     pageIndex++
-    
     // })
 }
 
