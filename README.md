@@ -1,4 +1,4 @@
-[https://d_boddie.gitlab.io/photo-from-here ]
+[https://d-boddie.github.io/photo-from-here_javascript/ ]
 
 Assessment - Photos From Here
 
@@ -102,10 +102,3 @@ Show the next image
 Provide some way to allow the user to see the next photo. You could use a button labeled "Next", a setTimeout that advances to the next photo after a certain number of seconds, or some other method that you choose. Be sure to display instructions for the user on the page.
 
 After the last photo in the array is displayed, advancing again should show the first photo again.
-
-*Submission
-Push your code into your GitLab repository, and deploy it via GitLab pages.
-Once you have the GitLab Pages url (ex: https://username.gitlab.io/photosFromHere/), go back to your code to create a README.md file, and put the GitLab Pages url and your thought process/development plan as the contents.
-Push your code to your GitLab repo once more.
-In Canvas, please submit your Gitlab Repo url.
-In GitLab, add KA_Grading as a member on your project with "Reporter" permission.
